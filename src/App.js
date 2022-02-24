@@ -4,22 +4,24 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Message></Message>
+      {/* <Counter></Counter> */}
+      {/* <Message></Message> */}
       {/* <Greet name="Vijay" heroName="Thor">
         <p>Children Props</p>
-      </Greet>
-      <Greet name="Pratik" heroName="IronMan">
+      </Greet> */}
+      {/* <Greet name="Pratik" heroName="IronMan">
         <button>Action</button>
-      </Greet>
+      </Greet> */}
       <Greet name="Aaron" heroName="Spiderman"></Greet>
       <Welcome name="Vijay" heroName="Thor"></Welcome>
-      <Welcome name="Pratik" heroName="IronMan"></Welcome>
-      <Welcome name="Aaron" heroName="Spiderman"></Welcome>
-      <Hello /> */}
+      {/* <Welcome name="Pratik" heroName="IronMan"></Welcome> */}
+      {/* <Welcome name="Aaron" heroName="Spiderman"></Welcome> */}
+      {/* <Hello></Hello> */}
     </div>
   );
 }
