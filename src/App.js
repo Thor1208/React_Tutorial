@@ -16,11 +16,24 @@ import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+
 
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <RefsDemo></RefsDemo>
+      {/* <ParentComp></ParentComp> */}
+      {/* <PureComp></PureComp> */}
+      {/* <Table></Table> */}
+      {/* <FragmentDemo></FragmentDemo> */}
+      {/* <LifecycleA></LifecycleA> */}
+      {/* <Form></Form> */}
       {/* <h1 className='error'>Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
       {/* <Inline></Inline> */}
